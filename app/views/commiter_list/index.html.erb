@@ -1,0 +1,22 @@
+<p><%= @msg %></p>
+<hr>
+<p>POSTサンプル</p>
+
+    <form method="post" action="/commiter_list/index">
+      <p>
+        ほげ：<input type="text" name="content" /><br />
+        ふが：<input type="text" name="title" />人<br />
+        <input type="submit" value="送信" />
+      </p>
+    </form>
+
+<hr>
+
+<table border="1">
+  <% @helos.each do |helo| %>
+  <tr>
+    <td><%= helo.title %></td>
+    <td><%= helo.content %></td>
+  </tr>
+  <% end %>
+</table>

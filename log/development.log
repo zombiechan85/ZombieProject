@@ -1,0 +1,855 @@
+
+
+Started GET "/assets/rails.png" for 10.61.9.202 at 2012-12-11 09:14:15 +0900
+Connecting to database specified by database.yml
+
+Mysql2::Error (Access denied for user 'root'@'localhost' (using password: NO)):
+  mysql2 (0.3.11) lib/mysql2/client.rb:44:in `connect'
+  mysql2 (0.3.11) lib/mysql2/client.rb:44:in `initialize'
+  activerecord (3.2.8) lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `new'
+  activerecord (3.2.8) lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `mysql2_connection'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:309:in `new_connection'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:319:in `checkout_new_connection'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:241:in `block (2 levels) in checkout'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:236:in `loop'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:236:in `block in checkout'
+  /usr/local/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:233:in `checkout'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:96:in `block in connection'
+  /usr/local/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:95:in `connection'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:404:in `retrieve_connection'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_specification.rb:170:in `retrieve_connection'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_specification.rb:144:in `connection'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__2727544936877492798__call__140790024656784755__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.5ms)
+
+
+Started GET "/hello" for 10.61.9.202 at 2012-12-11 09:26:52 +0900
+Connecting to database specified by database.yml
+
+Mysql2::Error (Access denied for user 'root'@'localhost' (using password: NO)):
+  mysql2 (0.3.11) lib/mysql2/client.rb:44:in `connect'
+  mysql2 (0.3.11) lib/mysql2/client.rb:44:in `initialize'
+  activerecord (3.2.8) lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `new'
+  activerecord (3.2.8) lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `mysql2_connection'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:309:in `new_connection'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:319:in `checkout_new_connection'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:241:in `block (2 levels) in checkout'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:236:in `loop'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:236:in `block in checkout'
+  /usr/local/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:233:in `checkout'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:96:in `block in connection'
+  /usr/local/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:95:in `connection'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:404:in `retrieve_connection'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_specification.rb:170:in `retrieve_connection'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_specification.rb:144:in `connection'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__1312811600675102551__call__1439924670792153503__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (37.8ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/hello" for 10.61.9.202 at 2012-12-12 11:31:19 +0900
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (uninitialized constant BooklistController):
+  activesupport (3.2.8) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.8) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.8) lib/active_support/inflector/methods.rb:229:in `constantize'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__3314054272097330465__call__834372899356470616__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.3ms)
+
+
+Started GET "/assets/rails.png" for 10.61.9.202 at 2012-12-12 11:31:47 +0900
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (6ms)
+
+
+Started GET "/hello" for 10.61.9.202 at 2012-12-12 11:36:31 +0900
+Connecting to database specified by database.yml
+Processing by CommiterListController#hello as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bye" for 10.61.9.202 at 2012-12-12 11:36:38 +0900
+Processing by CommiterListController#bye as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `rendar' for #<CommiterListController:0x007fd2a4736558>):
+  app/controllers/commiter_list_controller.rb:7:in `bye'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.4ms)
+
+
+Started GET "/hello" for 10.61.9.202 at 2012-12-12 11:36:45 +0900
+Processing by CommiterListController#hello as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello" for 10.61.9.202 at 2012-12-12 11:37:43 +0900
+Connecting to database specified by database.yml
+Processing by CommiterListController#hello as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bye" for 10.61.9.202 at 2012-12-12 11:37:47 +0900
+Processing by CommiterListController#bye as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bye" for 10.61.9.202 at 2012-12-12 11:47:23 +0900
+Connecting to database specified by database.yml
+Processing by CommiterListController#bye as HTML
+  Rendered commiter_list/bye.html.erb within layouts/application (3.7ms)
+Compiled commiter_list.css  (10ms)  (pid 27550)
+Compiled application.css  (41ms)  (pid 27550)
+Compiled jquery.js  (3ms)  (pid 27550)
+Compiled jquery_ujs.js  (0ms)  (pid 27550)
+Compiled commiter_list.js  (104ms)  (pid 27550)
+Compiled application.js  (162ms)  (pid 27550)
+Completed 200 OK in 292ms (Views: 291.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.61.9.202 at 2012-12-12 11:47:24 +0900
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.61.9.202 at 2012-12-12 11:47:24 +0900
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.61.9.202 at 2012-12-12 11:47:24 +0900
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.61.9.202 at 2012-12-12 11:47:24 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/commiter_list.css?body=1" for 10.61.9.202 at 2012-12-12 11:47:24 +0900
+Served asset /commiter_list.css - 200 OK (2ms)
+
+
+Started GET "/assets/commiter_list.js?body=1" for 10.61.9.202 at 2012-12-12 11:47:24 +0900
+Served asset /commiter_list.js - 200 OK (2ms)
+
+
+Started GET "/hello" for 10.61.9.202 at 2012-12-12 11:47:29 +0900
+Processing by CommiterListController#hello as HTML
+Completed 500 Internal Server Error in 38ms
+
+ActionView::MissingTemplate (Missing template commiter_list/hello! with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/home/hayama/proj/rails/rkb/app/views"
+  * "/home/hayama/proj/rails/rkb"
+  * "/"
+):
+  app/controllers/commiter_list_controller.rb:3:in `hello'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/hello" for 10.61.9.202 at 2012-12-12 11:47:47 +0900
+Connecting to database specified by database.yml
+Processing by CommiterListController#hello as HTML
+  Rendered commiter_list/hello.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 60ms (Views: 59.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.61.9.202 at 2012-12-12 11:47:48 +0900
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/commiter_list.css?body=1" for 10.61.9.202 at 2012-12-12 11:47:48 +0900
+Served asset /commiter_list.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.61.9.202 at 2012-12-12 11:47:48 +0900
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/commiter_list.js?body=1" for 10.61.9.202 at 2012-12-12 11:47:48 +0900
+Served asset /commiter_list.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.61.9.202 at 2012-12-12 11:47:48 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.61.9.202 at 2012-12-12 11:47:48 +0900
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/post.html" for 10.61.9.202 at 2012-12-12 12:33:48 +0900
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (No route matches [GET] "/post.html"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.1ms)
+
+
+Started POST "/commiter_list/show" for 10.61.9.202 at 2012-12-12 12:34:37 +0900
+Connecting to database specified by database.yml
+Processing by CommiterListController#show as HTML
+  Parameters: {"name"=>"hoge", "lang"=>"ruby"}
+WARNING: Can't verify CSRF token authenticity
+  Rendered text template (0.0ms)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/commiter_list/show" for 10.61.9.202 at 2012-12-12 12:34:46 +0900
+Processing by CommiterListController#show as HTML
+  Parameters: {"name"=>"ほげ", "lang"=>"ruby"}
+WARNING: Can't verify CSRF token authenticity
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (16.2ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (11.0ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (2.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUploadData (20121211011158)
+  [1m[35m (3.1ms)[0m  CREATE TABLE `upload_data` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `code` varchar(255), `update_date` date, `point` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20121211011158')[0m
+Migrating to CreateHelos (20121212060012)
+  [1m[35m (2.8ms)[0m  CREATE TABLE `helos` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `content` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20121212060012')[0m
+  [1m[35m (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+Connecting to database specified by database.yml
+  [1m[36m (2.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `helos` (`content`, `created_at`, `title`, `updated_at`) VALUES ('This is Test!', '2012-12-12 06:02:22', 'Hello', '2012-12-12 06:02:22')[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+
+
+Started GET "/assets/rails.png" for 10.61.9.202 at 2012-12-12 15:02:52 +0900
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (2ms)
+
+
+Started GET "/index" for 10.61.9.202 at 2012-12-12 15:03:19 +0900
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.0ms)
+
+
+Started GET "/index" for 10.61.9.202 at 2012-12-12 15:08:11 +0900
+Connecting to database specified by database.yml
+Processing by CommiterListController#index as HTML
+  [1m[36mHelo Load (0.3ms)[0m  [1mSELECT `helos`.* FROM `helos` [0m
+Completed 500 Internal Server Error in 126ms
+
+ActionView::MissingTemplate (Missing template layouts/helo with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/home/hayama/proj/rails/rkb/app/views"
+):
+  app/controllers/commiter_list_controller.rb:12:in `index'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (3.7ms)
+
+
+Started GET "/" for 10.61.9.202 at 2012-12-12 15:12:11 +0900
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.1ms)
+
+
+Started GET "/index" for 10.61.9.202 at 2012-12-12 15:12:16 +0900
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/helo" for 10.61.9.202 at 2012-12-12 15:12:19 +0900
+
+ActionController::RoutingError (No route matches [GET] "/helo"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/helo/index" for 10.61.9.202 at 2012-12-12 15:12:24 +0900
+
+ActionController::RoutingError (No route matches [GET] "/helo/index"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/commiter_list/index" for 10.61.9.202 at 2012-12-12 15:12:38 +0900
+Processing by CommiterListController#index as HTML
+  [1m[36mHelo Load (0.3ms)[0m  [1mSELECT `helos`.* FROM `helos` [0m
+  Rendered commiter_list/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 116ms (Views: 26.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.61.9.202 at 2012-12-12 15:12:38 +0900
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/commiter_list.css?body=1" for 10.61.9.202 at 2012-12-12 15:12:38 +0900
+Served asset /commiter_list.css - 200 OK (2ms)
+
+
+Started GET "/assets/commiter_list.js?body=1" for 10.61.9.202 at 2012-12-12 15:12:38 +0900
+Served asset /commiter_list.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.61.9.202 at 2012-12-12 15:12:38 +0900
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.61.9.202 at 2012-12-12 15:12:38 +0900
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.61.9.202 at 2012-12-12 15:12:38 +0900
+Served asset /application.js - 200 OK (8ms)
+
+
+Started GET "/commiter_list/" for 10.61.9.202 at 2012-12-12 15:16:16 +0900
+Connecting to database specified by database.yml
+Processing by CommiterListController#index as HTML
+  [1m[36mHelo Load (0.3ms)[0m  [1mSELECT `helos`.* FROM `helos` [0m
+  Rendered commiter_list/index.html.erb within layouts/application (26.6ms)
+Completed 200 OK in 151ms (Views: 62.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.61.9.202 at 2012-12-12 15:16:17 +0900
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/commiter_list.css?body=1" for 10.61.9.202 at 2012-12-12 15:16:17 +0900
+Served asset /commiter_list.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.61.9.202 at 2012-12-12 15:16:17 +0900
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.61.9.202 at 2012-12-12 15:16:17 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/commiter_list.js?body=1" for 10.61.9.202 at 2012-12-12 15:16:17 +0900
+Served asset /commiter_list.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.61.9.202 at 2012-12-12 15:16:17 +0900
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/commiter_list/" for 10.61.9.202 at 2012-12-12 15:16:20 +0900
+Processing by CommiterListController#index as HTML
+  [1m[35mHelo Load (0.3ms)[0m  SELECT `helos`.* FROM `helos` 
+  Rendered commiter_list/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.61.9.202 at 2012-12-12 15:16:21 +0900
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/commiter_list.css?body=1" for 10.61.9.202 at 2012-12-12 15:16:21 +0900
+Served asset /commiter_list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/commiter_list.js?body=1" for 10.61.9.202 at 2012-12-12 15:16:21 +0900
+Served asset /commiter_list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.61.9.202 at 2012-12-12 15:16:21 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.61.9.202 at 2012-12-12 15:16:21 +0900
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.61.9.202 at 2012-12-12 15:16:21 +0900
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 10.61.9.202 at 2012-12-12 15:16:24 +0900
+Processing by CommiterListController#index as HTML
+  [1m[36mHelo Load (0.3ms)[0m  [1mSELECT `helos`.* FROM `helos` [0m
+  Rendered commiter_list/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.61.9.202 at 2012-12-12 15:16:25 +0900
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/commiter_list.css?body=1" for 10.61.9.202 at 2012-12-12 15:16:25 +0900
+Served asset /commiter_list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.61.9.202 at 2012-12-12 15:16:25 +0900
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.61.9.202 at 2012-12-12 15:16:25 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/commiter_list.js?body=1" for 10.61.9.202 at 2012-12-12 15:16:25 +0900
+Served asset /commiter_list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.61.9.202 at 2012-12-12 15:16:25 +0900
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/index" for 10.61.9.202 at 2012-12-12 15:16:29 +0900
+Processing by CommiterListController#index as HTML
+  [1m[35mHelo Load (0.3ms)[0m  SELECT `helos`.* FROM `helos` 
+  Rendered commiter_list/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.61.9.202 at 2012-12-12 15:16:30 +0900
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/commiter_list.css?body=1" for 10.61.9.202 at 2012-12-12 15:16:30 +0900
+Served asset /commiter_list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.61.9.202 at 2012-12-12 15:16:30 +0900
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.61.9.202 at 2012-12-12 15:16:30 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/commiter_list.js?body=1" for 10.61.9.202 at 2012-12-12 15:16:30 +0900
+Served asset /commiter_list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.61.9.202 at 2012-12-12 15:16:30 +0900
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/commiter_list/index" for 10.61.9.202 at 2012-12-12 15:17:41 +0900
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (No route matches [GET] "/commiter_list/index"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.0ms)
+
+
+Started GET "/commiter_list/index" for 10.61.9.202 at 2012-12-12 15:18:24 +0900
+Connecting to database specified by database.yml
+Processing by CommiterListController#index as HTML
+  [1m[36mHelo Load (0.2ms)[0m  [1mSELECT `helos`.* FROM `helos` [0m
+  Rendered commiter_list/index.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 145ms (Views: 61.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.61.9.202 at 2012-12-12 15:18:25 +0900
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/commiter_list.css?body=1" for 10.61.9.202 at 2012-12-12 15:18:25 +0900
+Served asset /commiter_list.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.61.9.202 at 2012-12-12 15:18:25 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.61.9.202 at 2012-12-12 15:18:25 +0900
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/commiter_list.js?body=1" for 10.61.9.202 at 2012-12-12 15:18:25 +0900
+Served asset /commiter_list.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.61.9.202 at 2012-12-12 15:18:25 +0900
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/commiter_list/index" for 10.61.9.202 at 2012-12-12 15:57:30 +0900
+Connecting to database specified by database.yml
+Processing by CommiterListController#index as HTML
+  [1m[36mHelo Load (0.2ms)[0m  [1mSELECT `helos`.* FROM `helos` [0m
+  Rendered commiter_list/index.html.erb within layouts/application (24.5ms)
+Completed 200 OK in 147ms (Views: 59.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.61.9.202 at 2012-12-12 15:57:31 +0900
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/commiter_list.css?body=1" for 10.61.9.202 at 2012-12-12 15:57:31 +0900
+Served asset /commiter_list.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.61.9.202 at 2012-12-12 15:57:31 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.61.9.202 at 2012-12-12 15:57:31 +0900
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/commiter_list.js?body=1" for 10.61.9.202 at 2012-12-12 15:57:31 +0900
+Served asset /commiter_list.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.61.9.202 at 2012-12-12 15:57:31 +0900
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started POST "/commiter_list/index" for 10.61.9.202 at 2012-12-12 15:57:37 +0900
+Processing by CommiterListController#index as HTML
+  Parameters: {"content"=>"hoge", "title"=>"huga"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mHelo Load (0.3ms)[0m  SELECT `helos`.* FROM `helos` 
+  Rendered commiter_list/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.61.9.202 at 2012-12-12 15:57:37 +0900
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/commiter_list.css?body=1" for 10.61.9.202 at 2012-12-12 15:57:37 +0900
+Served asset /commiter_list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.61.9.202 at 2012-12-12 15:57:37 +0900
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.61.9.202 at 2012-12-12 15:57:37 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/commiter_list.js?body=1" for 10.61.9.202 at 2012-12-12 15:57:37 +0900
+Served asset /commiter_list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.61.9.202 at 2012-12-12 15:57:37 +0900
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/commiter_list/index" for 10.61.9.202 at 2012-12-12 15:57:41 +0900
+Processing by CommiterListController#index as HTML
+  [1m[36mHelo Load (0.4ms)[0m  [1mSELECT `helos`.* FROM `helos` [0m
+  Rendered commiter_list/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.61.9.202 at 2012-12-12 15:57:41 +0900
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/commiter_list.css?body=1" for 10.61.9.202 at 2012-12-12 15:57:41 +0900
+Served asset /commiter_list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.61.9.202 at 2012-12-12 15:57:41 +0900
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.61.9.202 at 2012-12-12 15:57:41 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/commiter_list.js?body=1" for 10.61.9.202 at 2012-12-12 15:57:41 +0900
+Served asset /commiter_list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.61.9.202 at 2012-12-12 15:57:41 +0900
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/commiter_list/index" for 10.61.9.202 at 2012-12-12 15:57:49 +0900
+Processing by CommiterListController#index as HTML
+  Parameters: {"content"=>"hoge", "title"=>"huga"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mHelo Load (0.4ms)[0m  SELECT `helos`.* FROM `helos` 
+  Rendered commiter_list/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.61.9.202 at 2012-12-12 15:57:49 +0900
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/commiter_list.css?body=1" for 10.61.9.202 at 2012-12-12 15:57:49 +0900
+Served asset /commiter_list.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.61.9.202 at 2012-12-12 15:57:49 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.61.9.202 at 2012-12-12 15:57:49 +0900
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/commiter_list.js?body=1" for 10.61.9.202 at 2012-12-12 15:57:49 +0900
+Served asset /commiter_list.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.61.9.202 at 2012-12-12 15:57:49 +0900
+Served asset /application.js - 304 Not Modified (27ms)
